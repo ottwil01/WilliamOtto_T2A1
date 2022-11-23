@@ -208,9 +208,7 @@ There are four main types of data manipulation in the relational database model.
 These types of manipulation are the main ways or performing operations on a relational database.
 
 ## Q12
-
 a.
-
 - Python
 - MySQL
 - HAProxy
@@ -224,24 +222,29 @@ a.
 
 https://stackshare.io/quora/quora
 
-b. Quora uses AWS via Amazon EC2 to host their servers. Amazon EC2 is a cloud based web service that allows the remote hosting of a web application through the use of one of the virtual machines that are owned by Amazon. The servers that operate behind the EC2 service are located in 30 regions around the world with 96 availability zones within these regions, covering over 245 countries.
+b.
+Quora uses AWS via Amazon EC2 to host their servers. Amazon EC2 is a cloud based web service that allows the remote hosting of a web application through the use of one of the virtual machines that are owned by Amazon. The servers that operate behind the EC2 service are located in 30 regions around the world with 96 availability zones within these regions, covering over 245 countries.
 
 https://aws.amazon.com/about-aws/global-infrastructure/
 
-c. Quora uses MySQL as its database. Memcached is used as MySQL's caching layer which improves speeds by caching data and objects in RAM. Git is used for version control for the entire system. Webnode2 and livenode are Quora's internal systems which generate JavaScript HTML and CSS, and is tightly coupled with livenode which all work in conjunction with one another to display the content of the webpage. HAProxy manages the load balancing for incoming connections, and behind that is NGINX which is a reverse proxy server. This is used to foward browser requests to the back end applications. Python is the general development language of choice, used in the back-end.
+c.
+Quora uses MySQL as its database. Memcached is used as MySQL's caching layer which improves speeds by caching data and objects in RAM. Git is used for version control for the entire system. Webnode2 and livenode are Quora's internal systems which generate JavaScript HTML and CSS, and is tightly coupled with livenode which all work in conjunction with one another to display the content of the webpage. HAProxy manages the load balancing for incoming connections, and behind that is NGINX which is a reverse proxy server. This is used to foward browser requests to the back end applications. Python is the general development language of choice, used in the back-end.
 
 https://en.wikipedia.org/wiki/Memcached
 https://www.nginx.com/resources/glossary/load-balancing/
 https://nginx.org/en/
 https://en.wikipedia.org/wiki/Reverse_proxy
 
-d. Quora likes to keep its data on one machine if possible, using the hash of the primary key to partition larger datasets across multiple databases and minimizing the use of joins between different databases.
+d.
+Quora likes to keep its data on one machine if possible, using the hash of the primary key to partition larger datasets across multiple databases and minimizing the use of joins between different databases.
 
-e. Quora needs to track things like the movement of users in the app (real user monitoring). Things in this category include all data associated with the activity of a user (login, personal info, session time, posts, comments, likes etc.). Application Performance Monitoring (APM) is the process of monitoring the application environment and its performance (tracking requests, tracking errors, tracking traffic, tracking host performance).
+e.
+Quora needs to track things like the movement of users in the app (real user monitoring). Things in this category include all data associated with the activity of a user (login, personal info, session time, posts, comments, likes etc.). Application Performance Monitoring (APM) is the process of monitoring the application environment and its performance (tracking requests, tracking errors, tracking traffic, tracking host performance).
 
 https://logicalread.com/how-to-efficiently-monitor-your-web-application/#.Y32Mw-xBzdo
 
-f. Users are related to performance of the web app through the demand they create on the servers. When a user create a request, they put a load on the servers which can alter the performance of the application, subsequently effecting the UX.
+f.
+Users are related to performance of the web app through the demand they create on the servers. When a user create a request, they put a load on the servers which can alter the performance of the application, subsequently effecting the UX.
 
-g. ![Quora ERD](images/Quora_ERD.png)
-# WilliamOtto_T2A1
+g.
+![Quora ERD](images/Quora_ERD.png)
